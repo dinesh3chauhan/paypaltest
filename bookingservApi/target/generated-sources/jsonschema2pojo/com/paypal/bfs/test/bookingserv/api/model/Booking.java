@@ -57,6 +57,7 @@ public class Booking {
     private String lastName;
     /**
      * Date of Birth
+     * (Required)
      * 
      */
     @JsonProperty("date_of_birth")
@@ -64,6 +65,7 @@ public class Booking {
     private String dateOfBirth;
     /**
      * checkin time
+     * (Required)
      * 
      */
     @JsonProperty("checkin_datetime")
@@ -71,6 +73,7 @@ public class Booking {
     private String checkinDatetime;
     /**
      * checkout time
+     * (Required)
      * 
      */
     @JsonProperty("checkout_datetime")
@@ -78,6 +81,7 @@ public class Booking {
     private String checkoutDatetime;
     /**
      * Total price
+     * (Required)
      * 
      */
     @JsonProperty("totalprice")
@@ -85,6 +89,7 @@ public class Booking {
     private Integer totalprice;
     /**
      * Deposit
+     * (Required)
      * 
      */
     @JsonProperty("deposit")
@@ -92,6 +97,7 @@ public class Booking {
     private Integer deposit;
     /**
      * Booking resource object
+     * (Required)
      * 
      */
     @JsonProperty("address")
@@ -160,6 +166,7 @@ public class Booking {
 
     /**
      * Date of Birth
+     * (Required)
      * 
      */
     @JsonProperty("date_of_birth")
@@ -169,6 +176,7 @@ public class Booking {
 
     /**
      * Date of Birth
+     * (Required)
      * 
      */
     @JsonProperty("date_of_birth")
@@ -178,6 +186,7 @@ public class Booking {
 
     /**
      * checkin time
+     * (Required)
      * 
      */
     @JsonProperty("checkin_datetime")
@@ -187,6 +196,7 @@ public class Booking {
 
     /**
      * checkin time
+     * (Required)
      * 
      */
     @JsonProperty("checkin_datetime")
@@ -196,6 +206,7 @@ public class Booking {
 
     /**
      * checkout time
+     * (Required)
      * 
      */
     @JsonProperty("checkout_datetime")
@@ -205,6 +216,7 @@ public class Booking {
 
     /**
      * checkout time
+     * (Required)
      * 
      */
     @JsonProperty("checkout_datetime")
@@ -214,6 +226,7 @@ public class Booking {
 
     /**
      * Total price
+     * (Required)
      * 
      */
     @JsonProperty("totalprice")
@@ -223,6 +236,7 @@ public class Booking {
 
     /**
      * Total price
+     * (Required)
      * 
      */
     @JsonProperty("totalprice")
@@ -232,6 +246,7 @@ public class Booking {
 
     /**
      * Deposit
+     * (Required)
      * 
      */
     @JsonProperty("deposit")
@@ -241,6 +256,7 @@ public class Booking {
 
     /**
      * Deposit
+     * (Required)
      * 
      */
     @JsonProperty("deposit")
@@ -250,6 +266,7 @@ public class Booking {
 
     /**
      * Booking resource object
+     * (Required)
      * 
      */
     @JsonProperty("address")
@@ -259,6 +276,7 @@ public class Booking {
 
     /**
      * Booking resource object
+     * (Required)
      * 
      */
     @JsonProperty("address")
